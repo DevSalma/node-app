@@ -1,4 +1,4 @@
-#My node app
+# My node app
 
 ### Run backend
 To run the server, you need to run:
@@ -39,6 +39,6 @@ There are 3 routes available:
 - /login - For an exisiting user to login
 - /welcome - Landing page when user's details are validated
 
-##### Extra
+#### Extra
 Another route available is:
 - /lost-password - For users to reset their password(Still in development)
