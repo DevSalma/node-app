@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    align-items: center;
+}
+
+.text {
+    color: rgb(94, 234, 94);
+}
+.submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.button {
+    background-color: rgb(44, 248, 129);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px;
+    color: rgb(13, 151, 13);
+}
+
+.button:hover {
+    color: #e75757;
+    cursor: pointer;
+}

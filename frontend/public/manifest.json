@@ -1,0 +1,9 @@
+{
+  "short_name": "Node App",
+  "name": "My node app",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

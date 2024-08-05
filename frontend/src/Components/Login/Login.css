@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 50px;
+    width: 40%;
+    height: 20%;
+    border-radius: 10px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.text {
+    color: rgb(94, 234, 94);
+}
+.line {
+    background-color: rgb(94, 234, 94);
+    width: 50px;
+    height: 5px;
+    border-radius: 10px;
+    align-items: center;
+}
+.inputList {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+}
+.input {
+    flex: 1;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.input img {
+    height: 30px;
+    margin: 5px 10px 0px;
+    padding: 5px 0px;
+}
+.input input {
+    height: 30px;
+    width: 300px;
+    background-color: #eaeaea;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.lost-password {
+    height: 30px;
+    color: #2b2323;
+    font-size: 12px;
+    padding-left: 74px;
+    margin-bottom: 10px;
+}
+.lost-password a {
+    color: #28433b;
+}
+.lost-password a:hover {
+    color: #e75757;
+}
+.submit-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.submit-content button {
+    background-color: rgb(44, 248, 129);
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px;
+    color: rgb(13, 151, 13);
+}
+
+.submit-content button:hover {
+    color: #e75757;
+    cursor: pointer;
+}
+
+.otherpage {
+    height: 20px;
+    margin-bottom: 20px; 
+    color: #2b2323;
+    font-size: 12px;
+    text-align: center;
+}
+
+.otherpage button {
+    color: #28433b;
+    background-color: transparent;
+    font-size: 12px;
+    border: none;
+}
+
+.otherpage button:hover {
+    color: #e75757;
+}
+
+.error {
+    height: 30px;
+    color: #2b2323;
+    font-size: 12px;
+    padding-left: 74px;
+    margin-bottom: 10px;
+}
