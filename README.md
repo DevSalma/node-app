@@ -5,7 +5,7 @@ To run the server, you need to run:
 - npm run start
 
 The server will be running at:
-http://localhost:1080
+- http://localhost:1080
 
 The routes available are:
 - /user/register - To register a new user
