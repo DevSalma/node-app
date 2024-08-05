@@ -16,23 +16,25 @@ The routes available are:
 ### Run backend(Dev)
 To run the server, you need to run:
 - npm run dev
+
 The server will be running at:
-http://localhost:1080
+- http://localhost:1080
 
 Some extra routes that can be tested are:
-- /user/users(Development purposes only) - To return all users in the database
+- /user/users - To return all users in the database(dev purposes only)
 - /user/:id 
--- To update all of user details
--- To partially update
--- To delete all user details
+ - To update all of user details
+ - To partially update
+ - To delete all user details
 
 ---
 
 ### Run frontend
 To run the frontend, you need to run:
 - npm start
+
 The frontend will be running at:
-http://localhost:3000
+- http://localhost:3000
 
 There are 3 routes available:
 - /register - For a new user to register
