@@ -26,7 +26,7 @@ The server will be running at:
 
 You can use postman/thunderclient to test these endpoints
 
-The routes available are:
+The endpoints available are:
 - /user/register - To register a new user
 - /user/login - To log in an existing user
 - /user/:username - To search for an exisitng user based on their surname
@@ -63,7 +63,7 @@ The server will be running at:
 
 You can use postman/thunderclient to test these endpoints
 
-Some extra routes that can be tested are:
+Some extra endpoints that can be tested are:
 - /user/users - To return all users in the database(dev purposes only)
 - /user/:id 
     - To update all of user details
