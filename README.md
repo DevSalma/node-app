@@ -24,6 +24,8 @@ To run the server, you need to run:
 The server will be running at:
 - http://localhost:1080
 
+You can use postman/thunderclient to test these endpoints
+
 The routes available are:
 - /user/register - To register a new user
 - /user/login - To log in an existing user
@@ -59,9 +61,11 @@ To run the server(in first terminal), you need to run:
 The server will be running at:
 - http://localhost:1080
 
+You can use postman/thunderclient to test these endpoints
+
 Some extra routes that can be tested are:
 - /user/users - To return all users in the database(dev purposes only)
 - /user/:id 
     - To update all of user details
-    - To partially update
+    - To partially update one field in user details
     - To delete all user details
