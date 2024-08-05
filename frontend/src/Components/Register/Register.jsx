@@ -32,14 +32,18 @@ const Register = () => {
             email: formValues.email,
             password: formValues.password
         };
-        const result = await submitForm(data);
-        if (result.message === 'User has been registerd successfully!') {
-            localStorage.setItem('username', result.user.username);
-            localStorage.setItem('email', result.user.email);
-            navigate('/welcome');
-        } else {
-            return error;
-        }
+        try {
+            const result = await submitForm(data);
+            if (result.message === 'User has been registerd successfully!') {
+                localStorage.setItem('username', result.user.username);
+                localStorage.setItem('email', result.user.email);
+                navigate('/welcome');
+            } else {
+                console.log("Error submitting form ", error);
+            }
+        } catch (err) {
+            console.log(err);
+        };
     };
 
     const handleLogin = () => {

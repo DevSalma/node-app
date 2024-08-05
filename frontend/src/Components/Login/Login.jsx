@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './Login.css';
 import email from '../Assets/emailimage.png';
 import passwordImage from '../Assets/password.png';
@@ -11,23 +11,27 @@ const Login = () => {
     const [formValues, setFormValues] = useState({
         email: '',
         password: ''
-      });
-      const handleOnChange = (e) => {
+    });
+    const handleOnChange = (e) => {
         const { name, value } = e.target;
         setFormValues({
-          ...formValues,
-          [name]: value
+            ...formValues,
+            [name]: value
         });
-      };
+    };
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const result = await submitForm(formValues);
-        if (result.message === 'User has logged in succesfully') {
-            localStorage.setItem('username', result.user.username);
-            localStorage.setItem('email', result.user.email);
-            navigate('/welcome');
-        } else {
-            return error;
+        try {
+            const result = await submitForm(formValues);
+            if (result.message === 'User has logged in succesfully') {
+                localStorage.setItem('username', result.user.username);
+                localStorage.setItem('email', result.user.email);
+                navigate('/welcome');
+            } else {
+                console.log(error);
+            }
+        } catch (err) {
+            console.log(err);
         }
     };
     const handleRegister = () => {
