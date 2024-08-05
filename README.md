@@ -23,9 +23,9 @@ The server will be running at:
 Some extra routes that can be tested are:
 - /user/users - To return all users in the database(dev purposes only)
 - /user/:id 
- - To update all of user details
- - To partially update
- - To delete all user details
+    - To update all of user details
+    - To partially update
+    - To delete all user details
 
 ---
 
