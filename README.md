@@ -18,7 +18,6 @@ Copy all data from `.env.example` to `.env`
 
 ### Run backend(User)
 To run the server, you need to run:
-- npm init -y - To generate package.json
 - npm install - To install node modules
 - npm run start
 
@@ -35,7 +34,6 @@ The routes available are:
 ### Run frontend
 To run the frontend, you need to open the second terminal:
 - cd frontend/
-- npm init -y - To generate package.json
 - npm install - To install node modules
 - npm start
 
@@ -55,7 +53,6 @@ Another route available is:
 
 ### Run backend(Dev)
 To run the server(in first terminal), you need to run:
-- npm init -y - To generate package.json(Skip if already installed in User)
 - npm install - To install node modules(Skip if already installed in User)
 - npm run dev
 
