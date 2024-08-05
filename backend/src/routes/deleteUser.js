@@ -3,7 +3,7 @@ import { User } from '../models/userModel.js';
 
 const router = express.Router();
 
-//Route for deleting a user from db based on their id (Unnecessary route)
+//Route for deleting a user from db based on their id (Extra route)
 router.delete('/:id', async (req, res) => {
     try{
         if(!req.params.id) {

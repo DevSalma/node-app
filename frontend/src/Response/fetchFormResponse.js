@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-
+//Calls endpoint register and login api
 const useSubmitForm = (url) => {
     const [error, setError] = useState(null);
 

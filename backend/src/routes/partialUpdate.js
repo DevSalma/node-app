@@ -4,7 +4,7 @@ import bcrypt from 'bcrypt';
 
 const router = express.Router();
 
-//Route for updating partial user details on db based on their id
+//Route for updating partial user details on db based on their id(Extra route)
 router.patch('/:id', async (req, res) => {
     if(!req.params.id) {
         return res.status(400).json({
